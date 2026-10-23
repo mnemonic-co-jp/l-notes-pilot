@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  // Static export cannot combine a prerendered shell with streamed holes.
+  // cacheComponents (PPR) and partialPrefetching require that runtime.
   turbopack: {
     rules: {
       "*.css": {
@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
+  },
+  output: "export",
+  images: {
+    unoptimized: true,
   },
 };
 
