@@ -1,0 +1,9 @@
+:HL["/_next/static/chunks/3fz1g_g6kamf6.css","style"]
+:HL["/_next/static/chunks/0rcor7gyxn1xg.css","style"]
+:HL["/_next/static/chunks/1dcxe7-87w-wj.css","style"]
+:HC["/",""]
+4:[["children",{"s":"__PAGE__","h":160}]]
+3:[["children",{"s":"write","h":96,"c":"$Q4"}]]
+2:[["children",{"s":{"n":"id","t":"d","k":"hosono-house","s":[]},"h":96,"c":"$Q3"}]]
+1:[["children",{"s":"albums","h":96,"c":"$Q2"}]]
+0:{"b":"DSmGiHnBGUbu39rG-FG7Z","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
